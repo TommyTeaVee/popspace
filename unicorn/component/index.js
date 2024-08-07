@@ -1,3 +1,4 @@
-import CollaborativeQuill from './dist/collaborative_quill.js'
+import {Quill }from "quill";
+//import ReactQuill from "react-quill";
 
-export default CollaborativeQuill
+export default Quill
