@@ -1,17 +1,17 @@
-# PopSpace, virtual spaces for everybody.
+# Qtune, virtual spaces for everybody.
 
-PopSpace is the open source virtual canvas platform for chatting, collaborating, and playing.
+Qtune is the open source virtual canvas platform for chatting, collaborating, and playing.
 
 Create your own spaces, on your own terms.
 
-Learn more at [PopSpace](https://popspace.io)
+Learn more at [Qtune](https://popspace.io)
 
 ![Hero Shot](README_COVER.png)
 
 
 # Quick Start
 
-To install PopSpace you will need:
+To install Qtune you will need:
 
 - An Audio/Video media provider:
   - A deployed [LiveKit server](https://livekit.io/)
@@ -29,7 +29,7 @@ docker pull ghcr.io/with-labs/popspace:latest
 
 ## Environment Variables
 
-The following environment variables are required to run PopSpace in a Docker container or running locally. This assumes a persistent volume is mounted at `/data`:
+The following environment variables are required to run Qtune in a Docker container or running locally. This assumes a persistent volume is mounted at `/data`:
 
 ```
 # if you use LiveKit, define the following vars
@@ -196,7 +196,7 @@ Called 'hermes' internally, its source is in `./hermes`. Clients connect to this
 
 The message protocol is not well-documented, but you can find a full list of incoming and outgoing message types in `./noodle/src/api/roomState/types/socketProtocol`. The backend handlers for these messages are located in `./hermes/src/server/processors`.
 
-Having a separate server for HTTP and Socket connections is probably overkill for a self-hosted app! As PopSpace's usage moves in this direction, it might be welcome to combine these two services by moving the HTTP routes into the Hermes Express server.
+Having a separate server for HTTP and Socket connections is probably overkill for a self-hosted app! As Qtune's usage moves in this direction, it might be welcome to combine these two services by moving the HTTP routes into the Hermes Express server.
 
 ### The Collaborative Document Server
 

@@ -21,7 +21,7 @@ const getMockCreator = async () => {
       data: {
         id: SYSTEM_USER_ID,
         kind: 'system',
-        displayName: 'PopSpace',
+        displayName: 'Qtune',
         admin: true,
       },
     });
