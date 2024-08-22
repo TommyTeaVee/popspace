@@ -22,7 +22,7 @@ type SupportedTypes =
   | WidgetType.StickyNote
   | WidgetType.YouTube
   | WidgetType.Whiteboard
-  | WidgetType.Notepad
+ // | WidgetType.Notepad
   | WidgetType.Huddle
   | WidgetType.Chat;
 
@@ -39,13 +39,13 @@ const DEFAULT_DATA: Record<SupportedTypes, WidgetState> = {
       lines: [],
     },
   },
-  [WidgetType.Notepad]: {
-    /*
+  /*[WidgetType.Notepad]: {
+  
       Data stored in a special operational transform store.
       The notepad store is keyed by widget ID,
       so we don't separately store any kind of link to the data.
-    */
-  },
+    
+  },*/
   [WidgetType.YouTube]: {
     videoId: '',
     mediaState: {
@@ -61,7 +61,7 @@ const DEFAULT_SIZE: Record<SupportedTypes, Bounds> = {
   [WidgetType.StickyNote]: STICKY_NOTE_SIZE,
   [WidgetType.Whiteboard]: WHITEBOARD_SIZE,
   [WidgetType.YouTube]: YOUTUBE_SIZE,
-  [WidgetType.Notepad]: NOTEPAD_SIZE,
+  //[WidgetType.Notepad]: NOTEPAD_SIZE,
   [WidgetType.Huddle]: HUDDLE_SIZE,
   [WidgetType.Chat]: CHAT_SIZE,
 };
@@ -70,7 +70,7 @@ const TOOLTIPS: Record<SupportedTypes, React.ReactElement> = {
   [WidgetType.Link]: i18n.t('widgets.link.quickActionTitle'),
   [WidgetType.StickyNote]: i18n.t('widgets.stickyNote.quickActionTitle'),
   [WidgetType.YouTube]: i18n.t('widgets.youtube.quickActionTitle'),
-  [WidgetType.Notepad]: i18n.t('widgets.notepad.quickActionTitle'),
+//  [WidgetType.Notepad]: i18n.t('widgets.notepad.quickActionTitle'),
   [WidgetType.Whiteboard]: i18n.t('widgets.whiteboard.quickActionTitle'),
   [WidgetType.Huddle]: i18n.t('widgets.huddle.quickActionTitle'),
   [WidgetType.Chat]: i18n.t('widgets.chat.quickActionTitle'),
