@@ -13,7 +13,7 @@
     "common": {
       "appName": "Qtune",
       "emailInput": {
-        "placeHolder": "fihlatv@gmail.com",
+        "placeHolder": "qtuneunversal@gmail.com",
         "label": "Email Address"
       },
       "cancel": "Cancel",
@@ -36,9 +36,9 @@
       "signInBtn": "Sign in",
       "contactSupportBtn": "Contact Support",
       "invalidRoom": {
-        "title": "You don’t have access to this room.",
-        "body": "Please contact the room owner to get invited.",
-        "bodySignedOut": "Please sign in and make sure the room owner has invited you to this room.",
+        "title": "You don’t have access to this villa.",
+        "body": "Please contact the villa owner to get invited.",
+        "bodySignedOut": "Please sign in and make sure the villa owner has invited you to this villa.",
         "quoteText": "",
         "altImgText": "No access",
         "buttonText": "Select a meeting",
@@ -64,7 +64,7 @@
       },
       "roomNotFound": {
         "title": "The Room is Gone",
-        "body": "Seems like the room doesn’t exist anymore.",
+        "body": "Seems like the villa doesn’t exist anymore.",
         "quoteText": "",
         "altImgText": "Room not found"
       },
@@ -82,7 +82,7 @@
       },
       "joinRoomExpired": {
         "title": "Your invite link has expired",
-        "body": "The most likely explanation is that your invite link is too old.\n\nPlease ask the room owner to invite you to the room again.",
+        "body": "The most likely explanation is that your invite link is too old.\n\nPlease ask the villa owner to invite you to the villa again.",
         "quoteText": "",
         "altImgText": "TBD"
       }
@@ -139,7 +139,7 @@
           "label": "Please send me how-to guides and updates"
         },
         "alreadyRegistered": "You've got a With account already — please sign in!",
-        "joinFlow": "You'll need an account to join someone's room. After you've created one, try clicking that link again.",
+        "joinFlow": "You'll need an account to join someone's villa. After you've created one, try clicking that link again.",
         "resentEmail": "We sent you another link!",
         "earlyAccessAccept": "By signing up to With Early Access, you agree to receive occasional emails asking for your feedback. As one of our first users, your input will help us make With even better."
       },
@@ -175,11 +175,11 @@
         "imgAltText": "Sad Blobby"
       },
       "meetingLink": {
-        "titleText": "Your meeting room is ready",
-        "explanationText": "Share the meeting link with your guest, or join the room now if you would like to try Qtune.",
+        "titleText": "Your meeting villa is ready",
+        "explanationText": "Share the meeting link with your guest, or join the villa now if you would like to try Qtune.",
         "copyLinkButton": "Copy link",
         "copied": "Copied",
-        "joinRoomButton": "Join room now",
+        "joinRoomButton": "Join villa now",
         "copyErrorMsg": "Error copying public invite link",
         "extensions": {
           "slack": {
@@ -205,7 +205,7 @@
         }
       },
       "meetingSelect": {
-        "titleText": "What kind of meeting room do you need?",
+        "titleText": "What kind of meeting villa do you need?",
         "creatingTemplate": "Creating your meeting"
       },
       "notSupported": {
@@ -370,7 +370,7 @@
         },
         "INVITE_EXPIRED": {
           "title": "Oops, this link appears to be expired.",
-          "body": "Someone might have revoked this link. Please ask a room admin for a new link."
+          "body": "Someone might have revoked this link. Please ask a villa admin for a new link."
         },
         "NOT_LOGGED_IN": {
           "title": "Please sign in.",
@@ -381,8 +381,8 @@
           "body": "TOO_MANY_ROOM_MEMBERS body"
         },
         "UNAUTHORIZED_ROOM_ACCESS": {
-          "title": "Oops, you don't have access to this room anymore.",
-          "body": "Please ask the room owner for access again."
+          "title": "Oops, you don't have access to this villa anymore.",
+          "body": "Please ask the villa owner for access again."
         }
       },
       "messages": {
@@ -391,12 +391,12 @@
         "provideValidYoutubeUrl": "Please provide a valid YouTube URL",
         "malformedUrl": "Please check to make sure URL has been properly copied from the email.",
         "mobileNotOptimized": "Qtune is currently not optimized for mobile. We'd rather polish the experience before you can use it. Sorry for the inconvenience.",
-        "noRoomPassword": "You need a password to join this room",
+        "noRoomPassword": "You need a password to join this villa",
         "incorrectRoomPassword": "The password you entered is incorrect",
-        "noRoomAccess": "You don't have access to this room. You'll need the password to get in.",
-        "unknownRoom": "Sorry, that room doesn't exist.",
+        "noRoomAccess": "You don't have access to this villa. You'll need the password to get in.",
+        "unknownRoom": "Sorry, that villa doesn't exist.",
         "joinRoomInvalidScreenName": "Please provide a valid screen name.",
-        "joinRoomUnknownFailure": "Failed to join room - check your network connection.",
+        "joinRoomUnknownFailure": "Failed to join villa - check your network connection.",
         "supportedFileTypes": "{{fileTypes}} are supported",
         "invalidEmail": "Invalid email.",
         "mediaNotSupported": "Unsupported media type",
@@ -413,17 +413,17 @@
         "emptyRoomName": "Room name cannot be blank.",
         "maxRoomNameCharacters": "Room name cannot be more then {{maxChar}} characters.",
         "checkboxRequired": "Please check this box to proceed",
-        "roomAccess": "You aren't a member of this room. Ask the room owner for an invite.",
-        "defaultRoomSetFailed": "We couldn't set your default room. Try again in a moment.",
+        "roomAccess": "You aren't a member of this villa. Ask the villa owner for an invite.",
+        "defaultRoomSetFailed": "We couldn't set your default villa. Try again in a moment.",
         "genericUnexpected": "Something went wrong, please try again"
       },
       "widgetsFallback": {
         "title": "Accessories error",
-        "msg": "An error occurred while setting up the room's accessories. Try refreshing the page and rejoining the room to fix this error."
+        "msg": "An error occurred while setting up the villa's accessories. Try refreshing the page and rejoining the villa to fix this error."
       },
       "unexpectedModal": {
         "title": "Well, this is awkward...",
-        "msg": "An unexpected error has occurred. Please try refreshing the page and rejoining the room."
+        "msg": "An unexpected error has occurred. Please try refreshing the page and rejoining the villa."
       },
       "noteError": {
         "title": "A sidenote",
@@ -471,10 +471,10 @@
         "noSystemPermissionsError": "Please check your privacy and security settings, and try again."
       },
       "roomMangement": {
-        "createRoomErrorTitle": "Oops! There was an error while creating the room.",
-        "renameRoomErrorTitle": "Oops! There was an error while renaming the room.",
-        "deleteRoomErrorTitle": "Oops! There was an error while deleting the room.",
-        "leaveRoomErrorTitle": "Oops! There was an error while leaving the room.",
+        "createRoomErrorTitle": "Oops! There was an error while creating the villa.",
+        "renameRoomErrorTitle": "Oops! There was an error while renaming the villa.",
+        "deleteRoomErrorTitle": "Oops! There was an error while deleting the villa.",
+        "leaveRoomErrorTitle": "Oops! There was an error while leaving the villa.",
         "message": "Please retry. If that keeps happening, please <1>contact us</1> and we will sort it out."
       },
       "twilioFailure": {
@@ -490,8 +490,8 @@
         "customWallpaperLabel": "Link to an image ( {{fileTypes}} are supported )",
         "wallpaperSet": "New wallpaper set!",
         "wallpaperSupportedFileTypes": "JPG, PNG, WEBP, and GIF",
-        "export": "Save room to file",
-        "import": "Load room from file",
+        "export": "Save villa to file",
+        "import": "Load villa from file",
         "submitButtonText": "Upload",
         "sendFeedbackBtn": "Feedback"
       },
@@ -504,7 +504,7 @@
       "omnibar": {
         "placeholder": "Type or paste content",
         "label": "Quick action bar",
-        "quickActionEmpty": "Type or paste links and notes to add them to the room.",
+        "quickActionEmpty": "Type or paste links and notes to add them to the villa.",
         "quickActionEmptyMobile": "Type or paste links and notes, or select an action below.",
         "quickActionButton": "Quick action"
       },
@@ -550,13 +550,13 @@
       },
       "paste": {
         "modalTitle": "Paste content",
-        "modalDetails": "Are you sure you want to add this to the room?",
+        "modalDetails": "Are you sure you want to add this to the villa?",
         "confirm": "Paste"
       },
       "experiments": {
         "title": "Experiments",
-        "massiveRoom": "\"Infinite\" room",
-        "massiveRoomExplainer": "Warning: very experimental! Removes the boundaries on your room, letting you move and place accessories anywhere you like. You can turn this back off, but your accessories will be re-arranged if you do."
+        "massiveRoom": "\"Infinite\" villa",
+        "massiveRoomExplainer": "Warning: very experimental! Removes the boundaries on your villa, letting you move and place accessories anywhere you like. You can turn this back off, but your accessories will be re-arranged if you do."
       },
       "roomControls": {
         "copyLinkButtonText": "Copy link",
@@ -572,7 +572,7 @@
         "wallpaperIconAlt": "Wallpaper Icon",
         "audioGlobal": "Global",
         "audioNearby": "Nearby",
-        "audioHeading": "Define how far sound travels in a room",
+        "audioHeading": "Define how far sound travels in a villa",
         "audioExplanation": "This setting affects all participants and media sources in the meeting, and it's remembered between sessions.",
         "wallpapers": {
           "positionLabel": "Wallpaper position",
@@ -603,8 +603,8 @@
           "title": "Move & Break out"
         },
         "addWidgets": {
-          "title": "Add content to the room",
-          "details": "You can add many kinds of content to the room."
+          "title": "Add content to the villa",
+          "details": "You can add many kinds of content to the villa."
         },
         "persistence": {
           "title": "Rooms are persistent",
@@ -634,7 +634,7 @@
           "placeholder": "Dorthy",
           "label": "Display Name",
           "blankError": "Display name cannot be blank",
-          "helperText": "Name that is displayed in the room",
+          "helperText": "Name that is displayed in the villa",
           "maxSize": "Display name must be less than {{maxNameLength}} characters"
         },
         "submitButton": "Update",
@@ -704,17 +704,17 @@
         "finalizeButtonText": "Finalize account"
       },
       "unsaved": {
-        "title": "Meeting room unsaved",
-        "infoText": "This meeting room and all the content you or other people have added will disappear after 48 hours.",
+        "title": "Meeting villa unsaved",
+        "infoText": "This meeting villa and all the content you or other people have added will disappear after 48 hours.",
         "explainationText": "You need a free Qtune account to persist the content of this meeting.",
         "signUpButton": "Sign up to Qtune",
         "signInButton": "Already have an account?"
       },
       "userEntry": {
         "placeholderText": "Your display name",
-        "submitButtonText": "Enter room",
+        "submitButtonText": "Enter villa",
         "maxSize": "Display name must be less than {{maxNameLength}} characters",
-        "tosDisclaimer": "By clicking \"Enter room\", you agree to our <1>Terms of Service</1> and that you have read our <3>Privacy Policy</3>."
+        "tosDisclaimer": "By clicking \"Enter villa\", you agree to our <1>Terms of Service</1> and that you have read our <3>Privacy Policy</3>."
       },
       "supportedBrowsers": {
         "description": "To ensure a stable experience you can use one of our supported browsers.",
@@ -724,7 +724,7 @@
     "meetingTemplates": {
       "blank": {
         "title": "Blank",
-        "description": "A blank room for your custom needs.",
+        "description": "A blank villa for your custom needs.",
         "imgAlt": "A speech bubble with a friendly exclamation"
       },
       "daily": {
