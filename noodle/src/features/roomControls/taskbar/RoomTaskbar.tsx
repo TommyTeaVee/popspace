@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     right: theme.spacing(2),
     borderRadius: '100%',
     width: 56,
-    height: 56,
+    height: 106,
   },
 }));
 
@@ -51,7 +51,7 @@ export const RoomTaskbar: React.FC<IRoomTaskbarProps> = ({ className, ...rest })
       <ResponsivePopoverProvider value={'top'}>
         <Paper square elevation={5} className={clsx(classes.root, className)} {...rest}>
           <Box style={{ marginLeft: 8 }}>
-            <Logo width={90} beamerTrigger />
+            <Logo width={90} height={70} beamerTrigger />
           </Box>
           <Spacing gap={0.5} alignItems="center" color="grey.900" flexDirection="row" justifyContent="center">
             <PublishedCameraToggle />

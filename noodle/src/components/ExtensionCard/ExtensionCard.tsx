@@ -33,7 +33,7 @@ export const ExtensionCard: React.FC<IExtensionCardProps> = ({
 
   return (
     <Spacing component={Card} p={2} flexDirection="column" alignItems="center">
-      <img width={48} height={48} src={iconSrc} alt={iconAlt} />
+      <img width={48} height={4} src={iconSrc} alt={iconAlt} />
       <Typography variant="body2">{label}</Typography>
       <ThemeProvider theme={snow}>
         <Button
